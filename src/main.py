@@ -133,7 +133,7 @@ plt.ylabel('Población de pollos')
 plt.legend()
 plt.title('Modelo de Hassell para la Dinámica Poblacional Avícola')
 plt.show()
-
+#
 population_ricker = list_ricker_population(p, r, k0, 0)
 population_ricker2 = list_ricker_population(p, r, k0, find_c_ricker(p, r, k0))
 population_ricker3 = list_ricker_population(p, r, k0, find_c_ricker(p, r, k0) - 1)
